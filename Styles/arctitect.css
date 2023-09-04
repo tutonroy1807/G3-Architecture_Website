@@ -108,6 +108,7 @@ main {
 .container {
     display: flex;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 .image_section {
@@ -157,7 +158,126 @@ main {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    /* margin-bottom: 20px; */
 }
+
+
+/* Some Facts Part */
+
+.card_image_container {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+.card {
+    background: #FFF;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    /* padding: 30px 10px 30px 30px; */
+    /* padding: 45px 65px 35px 65px; */
+
+}
+
+.card_status {
+    color: var(--Dark-02, #424242);
+    /* text-align: center; */
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 10px;
+    /* margin-bottom: 7px; */
+
+
+
+
+}
+
+.card_title {
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 5px;
+
+}
+
+/* .card_img {
+    padding-top: 45px;
+    padding-bottom: 150px;
+    padding-left: 97px;
+    padding-right: 97px;
+} */
+
+
+
+
+
+/* sponsors section */
+
+.sponsors {
+    margin-top: 180px;
+}
+
+.sponsors_title {
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.sponsors_description {
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    /* 162.5% */
+}
+
+
+.sponsors_image {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* footer section */
+
+.footer_section {
+    border-radius: 8px;
+    background: #FFF4E7;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 18px 0;
+    margin-top: 150px;
+    margin-bottom: 70px;
+}
+
+.footer_description {
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+
 
 
 /* banner media query */
@@ -170,7 +290,8 @@ main {
     }
 
     nav,
-    .container {
+    .container,
+    .card_image_container {
         flex-direction: column;
     }
 
@@ -182,6 +303,28 @@ main {
         margin-left: 20px;
         padding: 20px;
     }
+
+    .card_image_container {
+        margin-top: 10px;
+        padding: 20px;
+        gap: 20px;
+    }
+
+    .card {
+        padding-left: ;
+        /* align-items: center; */
+    }
+
+    /* sponsors image */
+
+    .sponsors_image {
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+
+
 
 
 }
