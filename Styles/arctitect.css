@@ -10,6 +10,20 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+.btn-primary {
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border-radius: 5px;
+    background: #FF900E;
+    padding: 6px 5px;
+    margin-bottom: 30px;
+}
+
 
 /* Header Section Styles */
 
@@ -39,4 +53,34 @@ li {
     color: #131313;
     font-size: 45px;
     /* align-items: center; */
+}
+
+
+/* Banner Section */
+
+.banner {
+    /* align-items: center; */
+}
+
+.banner_content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.banner_title {
+    color: #131313;
+    text-align: center;
+    font-size: 64px;
+    font-weight: 700;
+}
+
+.banner_description {
+    color: #727272;
+    text-align: center;
+
+}
+
+.banner>img {
+    margin: 50px 200px;
 }
