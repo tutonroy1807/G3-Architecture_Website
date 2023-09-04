@@ -1,0 +1,42 @@
+/* Work Sans font from to google */
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Open+Sans:ital,wght@0,600;0,700;0,800;1,500;1,700;1,800&family=Poppins:wght@100;500&family=Work+Sans:wght@400;600;700;800&display=swap');
+
+/* Shared Styles */
+* {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+/* Header Section Styles */
+
+header {
+    /* background-color: antiquewhite; */
+    background: rgba(255, 144, 14, 0.10);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+    /* margin-right: 30px; */
+}
+
+li {
+    list-style: none;
+    margin-right: 30px;
+    /* align-items: center; */
+}
+
+.nav_title {
+    color: #131313;
+    font-size: 45px;
+    /* align-items: center; */
+}
