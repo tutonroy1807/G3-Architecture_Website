@@ -169,8 +169,18 @@ main {
         padding: 20px;
     }
 
-    nav {
+    nav,
+    .container {
         flex-direction: column;
+    }
+
+    .image_section {
+        grid-template-columns: 1fr;
+    }
+
+    .description_part {
+        margin-left: 20px;
+        padding: 20px;
     }
 
 
@@ -181,17 +191,15 @@ main {
         padding: 50px;
     }
 
-
-
-    /* nav {
+    .container {
         flex-direction: column;
+    }
+
+    /* .image_section {
+        grid-template-columns: 1fr;
     } */
 
-    /* ul {
+    /* .description_part {
         flex-direction: column;
-    } */
-
-    /* .banner>img {
-        width: 100%;
     } */
 }
